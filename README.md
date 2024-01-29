@@ -3,6 +3,7 @@ Terraform does not use this file, but services like the Terraform Registry and G
 display the contents of this file to people who visit your module's Terraform Registry or
 GitHub page.
 <!-- BEGIN_TF_DOCS -->
+<!-- markdownlint-disable -->
 ## Documentation
 
 ## Requirements
@@ -24,4 +25,5 @@ No resources.
 ## Outputs
 
 No outputs.
+<!-- markdownlint-restore -->
 <!-- END_TF_DOCS -->
