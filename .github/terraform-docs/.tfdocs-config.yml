@@ -13,6 +13,7 @@ sections:
   show-all: true   # deprecated in v0.13.0, removed in v0.15.0
 
 content: |-
+  <!-- markdownlint-disable -->
   ## Documentation
 
   {{ .Requirements }}
@@ -22,6 +23,7 @@ content: |-
   {{ .Resources }}
 
   {{ .Outputs }}
+  <!-- markdownlint-restore -->
 
 output:
   file: README.md
